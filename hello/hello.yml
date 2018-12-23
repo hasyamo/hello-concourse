@@ -8,5 +8,5 @@ image_resource:
 inputs:
   - name: hello
 run:
-    path: find
+    path: ls
     args: [-alR]
