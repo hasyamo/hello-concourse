@@ -9,4 +9,4 @@ inputs:
   - name: hello
 run:
     path: bash
-    args: [./hello/hello.sh]
+    args: [./hello.sh]
