@@ -5,8 +5,8 @@ image_resource:
   type: docker-image
   source:
     repository: ubuntu
-inputs:
-  - name: hello
+#inputs:
+#  - name: hello
 run:
-    path: ls
-    args: [-alR]
+    path: bash
+    args: [./hello/hello/hello.sh]
